@@ -1,0 +1,94 @@
+$sariq: #fc0e;
+
+$och_kulrang: #a5a5a5;
+
+$kulrang: #343434;
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.calculator_container {
+  width: 400px;
+  background: #000000;
+  height: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.input_value {
+  color: #fff;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: right;
+  width: 100%;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.buttons_container {
+  display: flex;
+}
+
+.button {
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  background: $kulrang;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+
+  .button {
+    margin-left: 20px;
+  }
+}
+
+.right_buttons {
+  display: flex;
+  flex-direction: column;
+
+  .button {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background: #fc0e;
+  }
+}
+
+.bottomRow {
+  .button:first-child {
+    width: 140px;
+    border-radius: 50px;
+    justify-content: flex-start;
+    span {
+      margin-left: 20px;
+    }
+  }
+}
+left_button .row {
+  .button:first-child {
+    margin-left: 0;
+  }
+}
